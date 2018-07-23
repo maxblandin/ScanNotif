@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ScanNotif</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="nouveau_scan">Nouvelle sortie</string>
+    <string name="numero_scan">Numéro du scan : </string>
+    <string name="version_scan">Version : </string>
+    <string name="manga">Manga : </string>
+    <string name="chapitre">Chapitre : </string>
+    <string name="ajouter_au_favoris">Ajouter au favoris :</string>
+</resources>

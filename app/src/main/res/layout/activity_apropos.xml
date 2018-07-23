@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tout les nouveaux scans proviennent du site www.japscan.cc et leur lecture se fais par le biais de leur site. ScanNotif n'est qu'un outil pour ne pas loupez la sortie des chapitres de vos mangas préférés !
+            "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Développer par : Maxence Blandin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Designer par : Guillaume"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact : test@gmail.com"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+    <fragment
+        android:id="@+id/fragment_nav_apropos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.mb.manga.scannotif.vue.fragment.NavigationFragment">
+
+    </fragment>
+    </LinearLayout>
+</LinearLayout>

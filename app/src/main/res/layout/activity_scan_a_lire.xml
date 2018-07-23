@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.view.ScanALireActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/fragment_scan_a_lire"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            class="com.mb.manga.scannotif.vue.fragment.ScanFragment">
+
+        </fragment>
+
+        <fragment
+            android:id="@+id/fragment_nav_scan_a_lire"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            class="com.mb.manga.scannotif.vue.fragment.NavigationFragment">
+
+        </fragment>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
